@@ -1,0 +1,333 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BeanSceneProject
+build_property.RootNamespace = BeanSceneProject
+build_property.ProjectDir = C:\Users\SHABIR ASHRAFI\Desktop\Azure\BeanSceneProject\BeanSceneProject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\SHABIR ASHRAFI\Desktop\Azure\BeanSceneProject\BeanSceneProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Calendar/ViewCalendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcQ2FsZW5kYXJcVmlld0NhbGVuZGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/DiningArea/AddDiningArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcRGluaW5nQXJlYVxBZGREaW5pbmdBcmVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/DiningArea/DeleteDiningArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcRGluaW5nQXJlYVxEZWxldGVEaW5pbmdBcmVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/DiningArea/EditDiningArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcRGluaW5nQXJlYVxFZGl0RGluaW5nQXJlYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/DiningArea/ViewDiningArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcRGluaW5nQXJlYVxWaWV3RGluaW5nQXJlYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Home/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcSG9tZVxSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/InterReservation/ViewInterReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcSW50ZXJSZXNlcnZhdGlvblxWaWV3SW50ZXJSZXNlcnZhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Member/AddMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcTWVtYmVyXEFkZE1lbWJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Member/DeleteMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcTWVtYmVyXERlbGV0ZU1lbWJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Member/EditMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcTWVtYmVyXEVkaXRNZW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Member/ViewMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcTWVtYmVyXFZpZXdNZW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/ReservationStatus/AddReservationStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25TdGF0dXNcQWRkUmVzZXJ2YXRpb25TdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/ReservationStatus/DeleteReservationStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25TdGF0dXNcRGVsZXRlUmVzZXJ2YXRpb25TdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/ReservationStatus/EditReservationStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25TdGF0dXNcRWRpdFJlc2VydmF0aW9uU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/ReservationStatus/ViewReservationStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25TdGF0dXNcVmlld1Jlc2VydmF0aW9uU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/ReservationType/AddReservationType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25UeXBlXEFkZFJlc2VydmF0aW9uVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/ReservationType/DeleteReservationType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25UeXBlXERlbGV0ZVJlc2VydmF0aW9uVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/ReservationType/EditReservationType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25UeXBlXEVkaXRSZXNlcnZhdGlvblR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/ReservationType/ViewReservationType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25UeXBlXFZpZXdSZXNlcnZhdGlvblR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Reservation/AddReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25cQWRkUmVzZXJ2YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Reservation/DeleteReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25cRGVsZXRlUmVzZXJ2YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Reservation/EditReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25cRWRpdFJlc2VydmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Reservation/ViewReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzZXJ2YXRpb25cVmlld1Jlc2VydmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/RestaurantTable/AddRestaurantTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzdGF1cmFudFRhYmxlXEFkZFJlc3RhdXJhbnRUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/RestaurantTable/DeleteRestaurantTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzdGF1cmFudFRhYmxlXERlbGV0ZVJlc3RhdXJhbnRUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/RestaurantTable/EditRestaurantTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzdGF1cmFudFRhYmxlXEVkaXRSZXN0YXVyYW50VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/RestaurantTable/ViewRestaurantTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzdGF1cmFudFRhYmxlXFZpZXdSZXN0YXVyYW50VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Restaurant/AddRestaurant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzdGF1cmFudFxBZGRSZXN0YXVyYW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Restaurant/DeleteRestaurant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzdGF1cmFudFxEZWxldGVSZXN0YXVyYW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Restaurant/EditRestaurant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzdGF1cmFudFxFZGl0UmVzdGF1cmFudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Restaurant/ViewRestaurant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcUmVzdGF1cmFudFxWaWV3UmVzdGF1cmFudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Setting/EditSettings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2V0dGluZ1xFZGl0U2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Setting/ViewSettings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2V0dGluZ1xWaWV3U2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/SittingType/AddSittingType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2l0dGluZ1R5cGVcQWRkU2l0dGluZ1R5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/SittingType/DeleteSittingType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2l0dGluZ1R5cGVcRGVsZXRlU2l0dGluZ1R5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/SittingType/EditSittingType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2l0dGluZ1R5cGVcRWRpdFNpdHRpbmdUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/SittingType/ViewSittingType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2l0dGluZ1R5cGVcVmlld1NpdHRpbmdUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Sitting/AddSitting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2l0dGluZ1xBZGRTaXR0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Sitting/DeleteSitting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2l0dGluZ1xEZWxldGVTaXR0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Sitting/EditSitting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2l0dGluZ1xFZGl0U2l0dGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Sitting/ViewSitting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2l0dGluZ1xWaWV3U2l0dGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Membership/Views/Home/AddReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyc2hpcFxWaWV3c1xIb21lXEFkZFJlc2VydmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Membership/Views/Home/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyc2hpcFxWaWV3c1xIb21lXENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Membership/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyc2hpcFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Membership/Views/Home/UserReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyc2hpcFxWaWV3c1xIb21lXFVzZXJSZXNlcnZhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Membership/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyc2hpcFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Membership/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyc2hpcFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Home/AddReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSZXNlcnZhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Home/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Home/Insta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Home/TestPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Administration/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g2g1uyr5vd
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Areas/Membership/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyc2hpcFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-kwijcccrjs
+
+[C:/Users/SHABIR ASHRAFI/Desktop/Azure/BeanSceneProject/BeanSceneProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9nxe87kohf

@@ -1,0 +1,60 @@
+﻿@model Reservation
+@{
+    ViewData["Title"] = "AddReservation";
+}
+
+<h1>Book Table - Member View</h1>
+
+<hr />
+
+<form asp-controller="Home" asp-action="AddReservation" method="post" autocomplete="off" class="p-5">
+    <div class="mb-3">
+        <label class="form-label">Reservation Name</label>
+        <input type="text" class="form-control" asp-for="ReservationName" />
+        <span asp-validation-for="ReservationName" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Start Time</label>
+        <input type="datetime-local" class="form-control" asp-for="StartTime" />
+        <span asp-validation-for="StartTime" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">End Time</label>
+        <p class="fst-italic">Bookings are for 2 hours each</p>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Number Of Guests</label>
+        <input type="number" class="form-control" asp-for="NoOfGuests" />
+        <span asp-validation-for="NoOfGuests" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Comments</label>
+        <input type="text" class="form-control" asp-for="Comments" />
+        <span asp-validation-for="Comments" class="text-danger" />
+    </div>
+    <div hidden class="mb-3">
+        <label hidden class="form-label">Sitting Name</label>
+        @Html.DropDownListFor(m=>m.SittingId, ViewBag.SittingVB as SelectList)
+        <span asp-validation-for="SittingId" class="text-danger" />
+    </div>
+    <div hidden class="mb-3">
+        <label class="form-label">Status</label>
+        @Html.DropDownListFor(m=>m.ReservationStatusId, ViewBag.ReservationStatusVB as SelectList)
+        <span asp-validation-for="ReservationStatusId" class="text-danger" />
+    </div>
+    <div hidden class="mb-3">
+        <label class="form-label">Reservation Type</label>
+        @Html.DropDownListFor(m=>m.ReservationTypeId, ViewBag.ReservationTypeVB as SelectList)
+        <span asp-validation-for="ReservationTypeId" class="text-danger" />
+    </div>
+    <div class="mb-3" hidden>
+        <label class="form-label">Member</label>
+        @Html.DropDownListFor(m=>m.MemberId, ViewBag.MemberVB as SelectList)
+        <span asp-validation-for="MemberId" class="text-danger" />
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>

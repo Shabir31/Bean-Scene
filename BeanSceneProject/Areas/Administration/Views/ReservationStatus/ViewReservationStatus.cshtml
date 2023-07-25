@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ReservationStatus>
+@{
+    ViewData["Title"] = "ViewReservationStatus";
+}
+
+<h1>Reservation Statuses</h1>
+
+<hr />
+
+<form class="p-5">
+    <button asp-action="AddReservationStatus" asp-controller="ReservationStatus" class="btn btn-primary mb-3" style="margin-right:3ex">Add Reservation Status</button>
+    <button asp-action="ViewReservation" asp-controller="Reservation" class="btn btn-primary mb-3">Back</button>
+    <table class="table-responsive table-hover table-bordered" style="width:100%">
+        <thead>
+            <tr class="active" style="color:white; background-color: steelblue">
+                <th class="text-center">Reservation Status</th>
+                <th class="text-center" style="width:15%">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var reservationStatus in Model)
+                {
+                    <tr>
+                        <td class="text-center">@reservationStatus.ReservationStatusName</td>
+                        <td class="text-center">
+                            <div class="btn btn-sm">
+                                <a asp-action="EditReservationStatus" asp-controller="ReservationStatus" asp-route-id="@reservationStatus.Id" class="btn btn-outline-primary" style="margin-right:1ex">Edit</a>
+                                <a asp-action="DeleteReservationStatus" asp-controller="ReservationStatus" asp-route-id="@reservationStatus.Id" class="btn btn-outline-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td class="text-center" colspan="12">
+                        <div>No reservation statuses available at the moment</div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

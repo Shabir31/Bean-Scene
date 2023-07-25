@@ -1,0 +1,28 @@
+﻿@model Restaurant
+@{
+    ViewData["Title"] = "EditRestaurant";
+}
+
+<h1>Edit A Restaurant</h1>
+
+<hr />
+
+<form asp-controller="Restaurant" asp-action="EditRestaurant" method="post" autocomplete="off" class="p-5">
+
+    <div class="mb-3">
+        <label class="form-label"> Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> Name</label>
+        <input type="text" class="form-control" asp-for=RestaurantName />
+        <span asp-validation-for="RestaurantName" class="text-danger"></span>
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>
+

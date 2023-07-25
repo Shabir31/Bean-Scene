@@ -1,0 +1,64 @@
+﻿@model Reservation
+@{
+    ViewData["Title"] = "DeleteReservation";
+}
+
+<h1>DeleteReservation</h1>
+
+<form asp-controller="Reservation" asp-action="DeleteReservation" method="post" autocomplete="off" class="p-5">
+
+    <div class="mb-3">
+        <label class="form-label"> Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Reservation Name</label>
+        <input type="text" class="form-control" asp-for="ReservationName" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Start Time </label>
+        <input type="datetime-local" class="form-control" asp-for="StartTime" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">End Time</label>
+        <input type="datetime-local" class="form-control" asp-for="EndTime" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Number of Guests</label>
+        <input type="text" class="form-control" asp-for="NoOfGuests" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Comments</label>
+        <input type="text" class="form-control" asp-for="Comments" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> Sitting Name </label>
+        <input type="text" class="form-control" asp-for="SittingId" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Reservation Status</label>
+        <input type="text" class="form-control" asp-for="ReservationStatusId" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Reservation Type</label>
+        <input type="text" class="form-control" asp-for="ReservationTypeId" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Member</label>
+        <input type="text" class="form-control" asp-for="MemberId" readonly />
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>

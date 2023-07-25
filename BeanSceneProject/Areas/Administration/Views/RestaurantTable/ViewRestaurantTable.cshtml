@@ -1,0 +1,48 @@
+﻿@model IEnumerable<RestaurantTable>
+@{
+    ViewData["Title"] = "ViewRestaurantTable";
+}
+
+<h1>Restaurant Tables</h1>
+
+<hr />
+
+<form class="p-5">
+    <button asp-action="AddRestaurantTable" asp-controller="RestaurantTable" class="btn btn-primary mb-3" style="margin-right:3ex">New Restaurant Table</button>
+    <button asp-action="ViewRestaurant" asp-controller="Restaurant" class="btn btn-primary mb-3">Back</button>
+    <table class="table-responsive table-hover table-bordered" style="width:100%">
+        <thead>
+            <tr class="active" style="color:white; background-color: steelblue">
+                <th class="text-center">Restaurant Table</th>
+                <th class="text-center">Dining Area</th>
+                <th class="text-center" style="width:15%">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var restaurantTable in Model)
+                {
+                    <tr>
+                        <td class="text-center">@restaurantTable.SeatName</td>
+                        <td class="text-center">@restaurantTable.DiningAreas.DiningName</td>
+                        <td class="text-center">
+                            <div class="btn btn-sm">
+                                <a asp-action="EditRestaurantTable" asp-controller="RestaurantTable" asp-route-id="@restaurantTable.Id" class="btn btn-outline-primary" style="margin-right:1ex">Edit</a>
+                                <a asp-action="DeleteRestaurantTable" asp-controller="RestaurantTable" asp-route-id="@restaurantTable.Id" class="btn btn-outline-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td class="text-center" colspan="12">
+                        <div>No restaurant tables available at the moment</div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

@@ -1,0 +1,67 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model ReservationMemberVM
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "UserReservation";
+}
+
+<h1>My Reservations</h1>
+
+<hr />
+
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <form class="p-5">
+        <table class="table table-responsive table-hover table-bordered">
+            <thead>
+                <tr class=" active" style="color:white; background-color: steelblue">
+
+                    <th class="text-center">Reservation Name</th>
+                    <th class="text-center">Start Time</th>
+                    <th class="text-center">End Time</th>
+                    <th class="text-center">Number Of Guests</th>
+                    <th class="text-center">Comments</th>
+                    <th class="text-center">Sitting Name</th>
+                    <th class="text-center">Status</th>
+                    <th class="text-center">Reservation Type</th>
+                    <th class="text-center">Member Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Reservations != null && Model.Reservations.Any())
+                {   
+                    @foreach (var reservations in Model.Reservations)
+                    {
+                        <tr>
+
+                            <td class="text-center">@reservations.ReservationName</td>
+                            <td class="text-center">@reservations.StartTime</td>
+                            <td class="text-center">@reservations.EndTime</td>
+                            <td class="text-center">@reservations.NoOfGuests</td>
+                            <td class="text-center">@reservations.Comments</td>
+                            <td class="text-center">@reservations.Sitting.SittingName</td>
+                            <td class="text-center">@reservations.ReservationStatus.ReservationStatusName</td>
+                            <td class="text-center">@reservations.ReservationType.ReservationTypeName</td>
+                            <td class="text-center">@reservations.Member.FirstName</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td class="text-center" colspan="12">
+                            <div>@Model.Member.FirstName has no reservations available at the moment</div>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+    </form>
+}

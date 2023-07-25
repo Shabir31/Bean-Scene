@@ -1,0 +1,27 @@
+﻿@model MemberVM
+@{
+    ViewData["Title"] = "AddMember";
+}
+
+<h1>AddMember</h1>
+
+<form asp-controller="Member" asp-action="AddMember" method="post" autocomplete="off">
+    <div class="mb-3">
+        <label class="form-label">First Name</label>
+        <input type="text" class="form-control" asp-for="Member.IdentityUser.UserName" />
+        <span asp-validation-for="Member.IdentityUser.UserName" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="text" class="form-control" asp-for="Member.IdentityUser.Email" />
+        <span asp-validation-for="Member.IdentityUser.Email" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="text" class="form-control" asp-for="Member.IdentityUser.PhoneNumber" />
+        <span asp-validation-for="Member.IdentityUser.PhoneNumber" class="text-danger" />
+    </div>
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>

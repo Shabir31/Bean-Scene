@@ -1,0 +1,53 @@
+﻿@model IEnumerable<MemberVM>
+@{
+    ViewData["Title"] = "ViewMember";
+}
+
+<h1>Members</h1>
+
+<hr />
+
+<form class="p-5">
+    <table class="table-responsive table-hover table-bordered" style="width:100%">
+        <thead>
+            <tr class="active" style="color:white; background-color: steelblue">
+                <th class="text-center">User Name</th>
+                <th class="text-center">First Name</th>
+                <th class="text-center">Last Name</th>
+                <th class="text-center">Email</th>
+                <th class="text-center">Phone Number</th>
+                <th class="text-center" style="width:15%">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var members in Model)
+                {
+                    <tr>
+                        <td class="text-center">@members.Member.IdentityUser.UserName</td>
+                        <td class="text-center">@members.Member.FirstName</td>
+                        <td class="text-center">@members.Member.LastName</td>
+                        <td class="text-center">@members.Member.IdentityUser.Email</td>
+                        <td class="text-center">@members.Member.IdentityUser.PhoneNumber</td>
+                        <td class="text-center">
+                            <div class="btn btn-sm">
+                                <a asp-action="EditMember" asp-controller="Member" asp-route-id="@members.Member.Id" class="btn btn-outline-primary" style="margin-right:1ex">Edit</a>
+                                <a asp-action="DeleteMember" asp-controller="Member" asp-route-id="@members.Member.Id" class="btn btn-outline-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            }
+            else
+            {
+                <tr>
+                    <td class="text-center" colspan="12">
+                        <div>No members available at the moment</div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

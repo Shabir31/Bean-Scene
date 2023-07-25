@@ -1,0 +1,98 @@
+﻿@model IEnumerable<Sitting>
+
+@{
+    ViewData["Title"] = "Sittings";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+
+<form class="p-5">
+    <div class="container">
+        <div class="col">
+                <button asp-action="AddSitting" asp-controller="Sitting" class="btn btn-primary mb-3" style="margin-right:3ex">New Sitting</button>
+                <button asp-action="ViewSittingType" asp-controller="SittingType" class="btn btn-primary mb-3" style="margin-right:3ex">View Sitting Type</button>
+                <button asp-action="ViewCalendar" asp-controller="Calendar" class="btn btn-primary mb-3">Interactive Calendar</button>
+        </div>
+
+
+    </div>
+
+
+    <table class="table table-responsive table-hover table-bordered" style="width:100%">
+        <thead>
+            <tr class=" active" style="color:white; background-color: steelblue">
+                <th class="text-center">Name</th>
+                <th class="text-center">Start Time</th>
+                <th class="text-center">End Time</th>
+                <th class="text-center">Capacity</th>
+                <th class="text-center">Active</th>
+                <th class="text-center">Restaurant Name</th>
+                <th class="text-center">Sitting Name</th>
+                <th class="text-center" style="width:15%">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var sittings in Model)
+                {
+                    <tr>
+                        <td class="text-center">@sittings.SittingName</td>
+                        <td class="text-center">@sittings.StartTime</td>
+                        <td class="text-center">@sittings.EndTime</td>
+                        <td class="text-center">@sittings.Capacity</td>
+                        <td class="text-center">@sittings.Active</td>
+                        <td class="text-center">@sittings.Restaurant.RestaurantName</td>
+                        <td class="text-center">@sittings.SittingType.SittingTypeName</td>
+
+                        <td class="text-center">
+                            <div class="btn btn-sm">
+                                <a asp-controller="Sitting" asp-action="EditSitting" asp-route-id="@sittings.Id" class="btn btn-outline-primary" style="margin-right:1ex">Edit</a>
+                                <a asp-controller="Sitting" asp-action="DeleteSitting" asp-route-id="@sittings.Id" class="btn btn-outline-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td class="text-center" colspan="12">
+                        <div>No sittings available at the moment</div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+    <div>
+        <ul class="pagination pagination-lg">
+            <li class="page-item disabled">
+                <a class="page-link" href="#">&laquo;</a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">4</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">5</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">&raquo;</a>
+            </li>
+        </ul>
+    </div>
+
+</form>

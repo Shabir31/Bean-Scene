@@ -1,0 +1,39 @@
+﻿@model Member
+@{
+    ViewData["Title"] = "EditMember";
+}
+
+<h1>Edit A Member</h1>
+
+<hr />
+
+<form asp-controller="Member" asp-action="EditMember" method="post" autocomplete="off" class="p-5">
+
+    <div class="mb-3">
+        <label class="form-label"> Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">First Name</label>
+        <input type="text" class="form-control" asp-for=FirstName />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Last Name</label>
+        <input type="text" class="form-control" asp-for=LastName />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="text" class="form-control" asp-for=IdentityUser.PhoneNumber />
+        <span asp-validation-for="IdentityUser.PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>

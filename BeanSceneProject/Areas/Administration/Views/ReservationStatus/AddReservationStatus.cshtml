@@ -1,0 +1,20 @@
+﻿@model ReservationStatus
+@{
+    ViewData["Title"] = "AddReservationStatus";
+}
+
+<h1>Add A Reservation Status</h1>
+
+<hr />
+
+<form asp-controller="ReservationStatus" asp-action="AddReservationStatus" method="post" autocomplete="off" class="p-5">
+    <div class="mb-3">
+        <label class="form-label">Reservation Status</label>
+        <input type="text" class="form-control" asp-for="ReservationStatusName" />
+        <span asp-validation-for="ReservationStatusName" class="text-danger" />
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>

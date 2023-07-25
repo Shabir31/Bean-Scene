@@ -1,0 +1,19 @@
+﻿.btn-outline-primary {
+     background-color: green;
+     color: white
+}
+
+.btn-outline-primary:hover {
+    background-color: white;
+    color: green
+}
+
+.btn-outline-danger {
+    background-color: red;
+    color: white
+}
+
+.btn-outline-danger:hover {
+    background-color: white;
+    color: red
+}

@@ -1,0 +1,36 @@
+﻿@model Member
+@{
+    ViewData["Title"] = "DeleteMember";
+}
+
+<h1>DeleteMember</h1>
+
+<hr />
+
+<form asp-controller="Member" asp-action="DeleteMember" method="post" autocomplete="off" class="p-5">
+
+    <div class="mb-3">
+        <label class="form-label"> Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">First Name</label>
+        <input type="text" class="form-control" asp-for="FirstName" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Last Name</label>
+        <input type="text" class="form-control" asp-for="LastName" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="text" class="form-control" asp-for="IdentityUser.PhoneNumber" readonly />
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>

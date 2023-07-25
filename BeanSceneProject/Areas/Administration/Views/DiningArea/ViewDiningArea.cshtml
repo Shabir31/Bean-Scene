@@ -1,0 +1,48 @@
+﻿@model IEnumerable<DiningArea>
+@{
+    ViewData["Title"] = "ViewDiningArea";
+}
+
+<h1>Dining Areas</h1>
+
+<hr />
+
+<form class="p-5">
+    <button asp-action="AddDiningArea" asp-controller="DiningArea" class="btn btn-primary mb-3" style="margin-right:3ex">Add Dining Area</button>
+    <button asp-action="ViewRestaurant" asp-controller="Restaurant" class="btn btn-primary mb-3">Back</button>
+    <table class="table-responsive table-hover table-bordered" style="width:100%">
+        <thead>
+            <tr class="active" style="color:white; background-color: steelblue">
+                <th class="text-center">Dining Name</th>
+                <th class="text-center">Restaurant Name</th>
+                <th class="text-center" style="width:15%">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var diningAreas in Model)
+                {
+                    <tr>
+                        <td class="text-center">@diningAreas.DiningName</td>
+                        <td class="text-center">@diningAreas.Restaurant.RestaurantName</td>
+                        <td class="text-center">
+                            <div class="btn btn-sm">
+                                <a asp-action="EditDiningArea" asp-controller="DiningArea" asp-route-id="@diningAreas.Id" class="btn btn-outline-primary" style="margin-right:1ex">Edit</a>
+                                <a asp-action="DeleteDiningArea" asp-controller="DiningArea" asp-route-id="@diningAreas.Id" class="btn btn-outline-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td class="text-center" colspan="12">
+                        <div>No dining areas available at the moment</div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

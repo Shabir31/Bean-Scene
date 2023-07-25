@@ -1,0 +1,74 @@
+﻿@model Reservation
+
+@{
+    ViewData["Title"] = "EditReservation";
+}
+
+<h1>EditReservation</h1>
+
+<form asp-controller="Reservation" asp-action="EditReservation" method="post" autocomplete="off" class="p-5">
+
+    <div class="mb-3">
+        <label class="form-label"> Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for=ReservationName />
+        <span asp-validation-for="ReservationName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Start Time </label>
+        <input type="datetime-local" class="form-control" asp-for="StartTime" />
+        <span asp-validation-for="StartTime" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">End Time</label>
+        <input type="datetime-local" class="form-control" asp-for="EndTime" />
+        <span asp-validation-for="EndTime" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Capacity</label>
+        <input type="number" class="form-control" asp-for="NoOfGuests" />
+        <span asp-validation-for="NoOfGuests" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Comments</label>
+        <input type="text" class="form-control" asp-for=Comments />
+        <span asp-validation-for="Comments" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Sitting Name </label>
+        @Html.DropDownListFor(m=>m.SittingId, ViewBag.SittingVB as SelectList)
+        <span asp-validation-for="SittingId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Reservation Status</label>
+        @Html.DropDownListFor(m=>m.ReservationStatusId, ViewBag.ReservationStatusVB as SelectList)
+        <span asp-validation-for="ReservationStatusId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Reservation Type</label>
+        @Html.DropDownListFor(m=>m.ReservationTypeId, ViewBag.ReservationTypeVB as SelectList)
+        <span asp-validation-for="ReservationTypeId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Member</label>
+        @Html.DropDownListFor(m=>m.MemberId, ViewBag.MemberVB as SelectList)
+        <span asp-validation-for="MemberId" class="text-danger"></span>
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>

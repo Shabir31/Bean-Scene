@@ -1,0 +1,56 @@
+﻿@model Sitting
+@{
+    ViewData["Title"] = "DeleteSitting";
+}
+
+<h1>Delete A Sitting</h1>
+
+<hr />
+
+<form asp-controller="Sitting" asp-action="DeleteSitting" method="post" autocomplete="off" class="p-5">
+
+    <div class="mb-3">
+        <label class="form-label"> Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Sitting Name</label>
+        <input type="text" class="form-control" asp-for="SittingName" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Start Time </label>
+        <input type="datetime-local" class="form-control" asp-for="StartTime" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">End Time</label>
+        <input type="datetime-local" class="form-control" asp-for="EndTime" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Capacity</label>
+        <input type="text" class="form-control" asp-for="Capacity" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Active</label>
+        <input type="text" class="form-control" asp-for="Active" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> Restaurant Name </label>
+        <input type="text" class="form-control" asp-for="RestaurantId" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Sitting Types</label>
+        <input type="text" class="form-control" asp-for="SittingTypeId" readonly />
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>

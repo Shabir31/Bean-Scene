@@ -1,0 +1,65 @@
+﻿@model Sitting
+
+@{
+    ViewData["Title"] = "EditSittings";
+}
+<h1>Edit A Sitting</h1>
+
+<hr />
+
+<form asp-controller="Sitting" asp-action="EditSitting" method="post" autocomplete="off" class="p-5">
+
+    <div class="mb-3">
+        <label class="form-label"> Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> Name</label>
+        <input type="text" class="form-control" asp-for=SittingName />
+        <span asp-validation-for="SittingName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Start Time </label>
+        <input type="datetime-local" class="form-control" asp-for="StartTime" />
+        <span asp-validation-for="StartTime" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">End Time</label>
+        <input type="datetime-local" class="form-control" asp-for="EndTime" />
+        <span asp-validation-for="EndTime" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Capacity</label>
+        <input type="text" class="form-control" asp-for="Capacity" />
+        <span asp-validation-for="Capacity" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Active</label>
+        <input type="checkbox" asp-for="Active" />
+        <span asp-validation-for="Active" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> Restaurant Name </label>
+        @Html.DropDownListFor(m=>m.RestaurantId, ViewBag.RestaurantVB as SelectList)
+        <span asp-validation-for="SittingTypeId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Sitting Types</label>
+        @Html.DropDownListFor(m=>m.SittingTypeId, ViewBag.SittingTypeVB as SelectList)
+        <span asp-validation-for="SittingTypeId" class="text-danger"></span>
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>
+
+

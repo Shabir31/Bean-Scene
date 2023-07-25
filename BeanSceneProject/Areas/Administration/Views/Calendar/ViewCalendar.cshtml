@@ -1,0 +1,100 @@
+﻿@model BeanSceneProject.Areas.Administration.Models.ViewCalendarVM
+@{
+    ViewData["Title"] = "ViewCalendar";
+
+}
+<h1>Interactive Calendar</h1>
+<div id="calendar" class="p-5"></div>
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="eventModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title "><span id="eventTitle"></span></h4>
+                <button class="btn-close btn btn-default" data-bs-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="pDetails"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="popupSittingForm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="eventModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title "></h4>
+                <button class="btn-close btn btn-default" data-bs-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <div class="form-group">
+                        <label>Sitting Id</label>
+                        <input type="text" class="form-control" id="SittindId" disabled />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Sitting Name</label>
+                        <input type="text" class="form-control" id="title" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Start Time</label>
+                        <input type="text" class="form-control" id="start" />
+
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>End Time</label>
+                        <input type="text" class="form-control" id="end" />
+
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Capacity</label>
+                        <input type="number" class="form-control" id="Capacity" />
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Active</label>
+                        <input type="checkbox"  id="Active" checked/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Restaurant Name</label>
+                        <select id="restaurant-id">
+                            <option value="">Please Select</option>
+                            @foreach (var r in Model.Restaurants)
+                            {
+                                <option value="@r.Id">@r.RestaurantName</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Sitting Types</label>
+                        <select id="sittingType-id">
+                            <option value="">Please Select</option>
+                            @foreach (var s in Model.sittingTypes)
+                            {
+                                <option value="@s.Id">@s.SittingTypeName</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                <button type="button" onclick="AddSitting();" id="btnAdd" class="btn btn-primary">Submit</button>
+                <button type="button" onclick="UpdateSitting();" style="display:none" class="btn btn-warning" id="btnUpdate">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+
+    <script src="~/lib/fullcalender/dist/index.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.7/index.global.min.js"></script>
+    <script src="~/calendar.js"></script>
+    }

@@ -1,0 +1,31 @@
+﻿@model DiningArea
+@{
+    ViewData["Title"] = "DeleteDiningArea";
+}
+
+<h1>Delete A Dining Area</h1>
+
+<hr />
+
+<form asp-controller="DiningArea" asp-action="DeleteDiningArea" method="post" autocomplete="off" class="p-5">
+
+    <div class="mb-3">
+        <label class="form-label"> Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Dining Area Name</label>
+        <input type="text" class="form-control" asp-for="DiningName" readonly />
+    </div>
+
+     <div class="mb-3">
+        <label class="form-label"> Restaurant Name </label>
+        <input type="text" class="form-control" asp-for="RestaurantId" readonly />
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>

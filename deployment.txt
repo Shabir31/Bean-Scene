@@ -1,0 +1,12 @@
+
+Azure Web App:
+https://mouse-clique.azurewebsites.net
+
+
+Azure SQL:
+
+
+Server=tcp:reservation-system-database-server.database.windows.net,1433;Initial Catalog=MyBeanSceneDB;Persist Security Info=False;User ID=freddy-da-bunny;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+server: reservation-system-database-server.database.windows.net
+admin account: freddy-da-bunny
+password: 156hf@#$&^_bdfg2345#$56
